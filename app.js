@@ -28,6 +28,7 @@ reset.addEventListener("click", () => {
   start.classList.remove("pause");
   start.classList.add("start");
   start.innerText = "Start";
+  reset.style.display = "none";
 
   milliseconds = 0;
   seconds = 0;
