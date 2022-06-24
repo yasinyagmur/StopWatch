@@ -7,17 +7,17 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-     height: 100vh;
-    background-color: black;
+    height: 100vh;
+    background-color:rgb(20, 19, 19);
 
 }
 h1{
     margin: 3rem 0 3rem;
-    color: white;
+    color: whitesmoke;
     font-size: 4rem;
 }
 .watchDiv{
-    color: red;
+    color: rgb(255, 0, 0);
     font-size: 2rem;
     margin-bottom: 3rem;
 
