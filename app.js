@@ -10,7 +10,7 @@ reset.style.display = "none";
 start.addEventListener("click", (e) => {
   if (e.target.classList.contains("start")) {
     e.target.classList.remove("start");
-    // e.target.classList.add('pause')
+    e.target.classList.add("pause");
     e.target.innerText = "Pause";
     watch = setInterval(watchStart, 10);
   } else {
