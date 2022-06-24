@@ -6,7 +6,7 @@ let milliseconds = 0;
 let seconds = 0;
 let minutes = 0;
 let watch;
-
+reset.style.display = "none";
 start.addEventListener("click", (e) => {
   if (e.target.classList.contains("start")) {
     e.target.classList.remove("start");
@@ -18,6 +18,7 @@ start.addEventListener("click", (e) => {
     e.target.classList.add("start");
     e.target.innerText = "Start";
     clearInterval(watch);
+    reset.style.display = "inline";
   }
 });
 
