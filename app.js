@@ -16,7 +16,7 @@ start.addEventListener("click", (e) => {
   } else {
     // e.target.classList.remove("pause");
     e.target.classList.add("start");
-    e.target.innerText = "Start";
+    e.target.innerText = "Resume";
     clearInterval(watch);
     reset.style.display = "inline";
   }

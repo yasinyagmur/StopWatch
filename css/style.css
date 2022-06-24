@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid red;
+    height: 100vh;
+    background-color: black;
+
+}
+h1{
+    margin: 3rem 0 3rem;
+    color: white;
+    font-size: 4rem;
+}
+.watchDiv{
+    color: red;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+button{
+    width: 7rem;
+    margin: 1rem;
+}
